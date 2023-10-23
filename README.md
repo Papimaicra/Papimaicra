@@ -2,17 +2,21 @@
 <h3 align="center">Estudiante de ingeniería en software 💻</h3>
 
 
-```python
+```javascript
+Copy code
+class SoftwareEngineer {
+  constructor() {
+    this.name = "Luis Castro";
+    this.role = "Software Engineer";
+    this.language_spoken = ["Spanish", "English"];
+  }
 
-class SoftwareEngineer:
-  def __init__(self):
-      self.name = "Luis Castro"
-      self.role = "Software Engineer"
-      self.language_spoken = ["Spanish", "English"]
+  sayHi() {
+    console.log("Bienvenido a mi perfil de GitHub 👋");
+  }
+}
 
-  def say_hi(self):
-      print("Bienvenido a mi perfil de github 👋")
-me = SoftwareEngineer()
-me.say_hi()
+const me = new SoftwareEngineer();
+me.sayHi();
 
 ```
