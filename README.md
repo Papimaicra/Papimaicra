@@ -1,16 +1,18 @@
-### Hi there 👋
+<h1 align="center">Hi 👋, I'm Luis Castro</h1>
+<h3 align="center">Estudiante de ingeniería en software 💻</h3>
 
-<!--
-**Papimaicra/Papimaicra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+```python
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class SoftwareEngineer:
+  def __init__(self):
+      self.name = "Luis Castro"
+      self.role = "Software Engineer"
+      self.language_spoken = ["Spanish", "English"]
+
+  def say_hi(self):
+      print("Bienvenido a mi perfil de github 👋")
+me = SoftwareEngineer()
+me.say_hi()
+
+```
