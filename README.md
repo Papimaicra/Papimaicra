@@ -3,7 +3,6 @@
 
 
 ```javascript
-Copy code
 class SoftwareEngineer {
   constructor() {
     this.name = "Luis Castro";
